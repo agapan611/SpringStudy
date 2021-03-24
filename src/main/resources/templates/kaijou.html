@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<p th:text="${kekka}">階乗の計算をします</p>
+<form action="/kaijou" method="POST">
+<label>階乗したい値を入れてください</label><input type="number" step="1"  name="kekkaVal">
+<input type="submit" value="送信">
+</form>
+
+
+</body>
+</html>
